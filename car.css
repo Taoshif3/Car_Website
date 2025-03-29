@@ -1,0 +1,140 @@
+/*Reset begins*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}  
+/*Reset ends*/
+body {
+    font-weight: 400;
+    font-family: Arial, sans-serif;
+}
+/*First header begins*/
+.navbar {
+    background-color: #4AC87E;
+    ;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left-menu i {
+    color: white;
+    text-decoration: none;
+    margin: 0 1rem;
+    padding-left: 5rem;
+    font-size: 1rem;
+}
+.right-menu{
+    margin-right: 12rem;
+}
+.right-menu i {
+    color: white;
+    text-decoration: none;
+    margin: 0.2rem;
+    padding-right: 0rem;
+    font-size: 1rem;
+}
+.left-menu, .right-menu {
+    display: flex;
+}
+.left-menu i:hover, .right-menu i:hover {
+    color: black;;
+}
+/*First header ends*/
+
+/*Second header starts*/
+.nav1{
+    display: inline-flex;
+    justify-content: space-around;
+    
+    padding: 0rem 2rem;
+    
+}
+.list1{
+    display: flex;
+    justify-content: space-between;
+    
+    padding: 1rem 10rem;
+}
+.logo{
+    font-weight: 800;
+    font-size: larger;
+    padding-left: 8rem;
+}
+.image{
+    height: 2rem;
+    width: 2rem;
+    flex: auto ;
+    margin-top: 1rem;
+    border-radius: 5rem ;
+}
+#arrow{
+    border: none;
+}
+.leftmenu2{
+    padding: 0rem;
+}
+/*SEcond header ends*/
+
+/*hero section begins*/
+.container{
+    background-color: bisque;
+    width: 900px;
+    
+}
+.looking{
+    color: #4AC87E;
+}
+.heroh{
+    font-size: xx-large;
+    font-weight: 600;
+    padding: 4rem;
+    
+    
+}
+.herop{
+    text-align: left;
+    padding: 0rem;
+    margin-left: 4rem;
+}
+.apple-btn{
+    background-color: black;
+    border-radius: 0.5rem;
+}
+.apple-p{
+    color: white;
+}
+.apple-logo{
+    font-size: 3rem;
+    color: white;
+    display: flex;
+    justify-content: left;
+    align-items: start;
+    padding-right: 2rem;
+}
+.google-logo{
+    font-size: 3rem;
+    padding: 1rem;
+}
+.hero-sec{
+    background-color: #fff;
+    width: 1000px;
+
+    display: inline-block;
+}
+.aside-div{
+    background-color: black;
+}
+/*Bottom div begins*/
+.bottom-div{
+    background-color: red;
+}
+/*Bottom div begins*/
+/*TODO:hero section ends*/
+
+/*!container2 begins here*/
+.container2{
+    background-color: lightblue;
+}
+/*!container2 ends here*/
